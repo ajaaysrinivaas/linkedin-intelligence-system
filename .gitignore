@@ -43,6 +43,9 @@ Thumbs.db
 logs/
 *.log
 
+# MCP tool reference (generated/external)
+Tools.md
+
 # Generated workspace artifacts
 archived/*
 !archived/.gitkeep
