@@ -1,6 +1,3 @@
-**Here's the updated version with the warning moved to the top and strengthened:**
-
-```markdown
 # LinkedIn Intelligence System
 
 > An agent-first workspace that turns LinkedIn research into structured intelligence artifacts — directly inside VS Code.
