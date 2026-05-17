@@ -1,0 +1,72 @@
+# Secrets and environment files
+.env
+.env.local
+.env.*.local
+secrets/
+*.pem
+*.key
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+
+# Test and lint caches
+.pytest_cache/
+.pytest_tmp/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Generated workspace artifacts
+archived/*
+!archived/.gitkeep
+!archived/newsletters/
+!archived/newsletters/.gitkeep
+
+data/dossiers/active/*
+!data/dossiers/active/people/
+data/dossiers/active/people/*
+!data/dossiers/active/people/satya_nadella-microsoft.md
+
+data/feed_insights/*
+!data/feed_insights/.gitkeep
+
+data/images/*
+!data/images/.gitkeep
+
+data/index/catalog.json
+data/index/runs/
+
+data/posts/curated/*
+!data/posts/curated/.gitkeep
+
+data/posts/raw/*
+!data/posts/raw/EXAMPLE_idea.md
+
+data/outreach/*
